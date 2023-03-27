@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: #84E1AD;
 }
 
 header #cabecalho{
@@ -25,7 +34,7 @@ header p {
 
 #menu {
     background-color: #175030;
-    
+    box-shadow: 2px 2px 2px;
 }
 
 #menu li {
@@ -44,3 +53,35 @@ header p {
     padding: 5px;
     border-radius: 2px;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+main {
+    background: white;
+    box-shadow: 1px 1px 2px;
+    margin: auto;
+    padding: 15px;
+    max-width: 800px;
+}
+
+main h1, h2 {
+    font-family: 'idroid';
+    color: #1a5c38;
+    margin: 10px;
+}
+
+main h2 {
+    background-image: linear-gradient(to right , #d1d1d1, white);
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 15px 0;
+}
+
