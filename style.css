@@ -131,8 +131,23 @@ main p {
     height: 33.5em;
 }
 
-#tabela {
+#titulo-tabela{ 
     font: bold 18px Arial, Helvetica, sans-serif;
-    background-color: #063D1E;
+    background: #063D1E;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
 
+#corpo-tabela {
+    background: #83E1AD;
+    width: 95%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    color: #063D1E;
 }
